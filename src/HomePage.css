@@ -14,13 +14,26 @@
 }
 
 .dashboard__btn {
+    background-color: #fff;
+    border: 1px solid #000;
     padding: 10px;
-    font-size: 18px;
+    border-radius: 5px;
     margin-top: 10px;
-    border: none;
-    color: white;
-    background-color: black;
-    border-radius: 10px;
+    align-self: center;
+}
+
+.dashboard__btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.dashboard__textBox {
+    max-width: fit-content;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-self: center;
 }
 
 .dashboard div {
